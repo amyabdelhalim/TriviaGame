@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Trivia Game</title>
   <link rel="stylesheet" href="./assets/styles.css">
 </head>
+
 <body>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-    
+  <button id="startButton">start</button>
+  <!--Question Section -->
+  <div id="timeLeft"></div>
+  <div id="currentQuestion"></div>
+  <div class="question"></div>
+  <div class="answersList"></div>
+
+  <!-- Answer Page -->
+  <div id="message"></div>
+  <div class="correctAnswer"></div>
+
+
+  <!-- Score Board -->
+  <div id="finalMessage"></div>
+  <div id="correctAnswers"></div>
+  <div id="incorrectAnswers"></div>
+  <div id="unanswered"></div>
+
+  <!-- Java Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
   <script src="./assets/app.js"></script>
 </body>
+
 </html>
